@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../401154.jpg">
+    <!--i added favicon-->
+
+    <title>Hafta Ödev 4</title>
+</head>
+<body>
+    <h3>First, create a form. Have inputs and button. Then implement it with Form Action using Get and Post methods with different target attributes.</h3>
+    <h4>POST</h4>
+    <form action="post.php" method="post">
+        <div>
+            <label for="namePost">Name</label><br>
+            <input type="text" name="namePost" id="namePost" required>
+        </div>
+        <div>
+            <label for="surnamePost">Surname</label><br>
+            <input type="text" name="surnamePost" id="surnamePost" required>
+        </div=>
+
+        <div>
+            <label>Gender</label>
+            <br>
+            <input type="radio" name="genderPost" value="Male" id="malePost"><label for="malePost">Male</label>
+            <br>
+            <input type="radio" name="genderPost" value="Female" id="femalePost"><label for="femalePost">Female</label>
+        </div>
+        
+        <input type="submit" value="Gönder">
+
+    </form>
+
+    <hr>
+
+    <h4>GET</h4>
+    <form action="get.php" method="get">
+        <div>
+            <label for="nameGet">Name</label><br>
+            <input type="text" name="nameGet" id="nameGet" required>
+        </div>
+
+        <div>
+            <label for="surnameGet">Surname</label><br>
+            <input type="text" name="surnameGet" id="surnameGet" required>
+        </div>
+
+        <div>
+            <label>Gender</label>
+            <br>
+            <input type="radio" name="genderGet" value="Male" id="maleGet"><label for="maleGet">Male</label>
+            <br>
+            <input type="radio" name="genderGet" value="Female" id="femaleGet"><label for="femaleGet">Female</label>
+        </div>
+
+        <input type="submit" value="Gönder">
+    </form>
+    <hr>
+
+</body>
+</html>

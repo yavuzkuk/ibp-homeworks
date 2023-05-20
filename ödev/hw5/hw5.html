@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../401154.jpg">
+
+
+    <title>Ödev</title>
+</head>
+<body>
+    <form method= "POST" action="post.php">
+        <div>
+            <label for="nameSurname">Name-Surname</label><br>
+            <input type="text" name="name" placeholder="Name-Surname" id="nameSurname" required><br>
+        </div>
+        <div>
+            <label for="mail">Mail Adress</label><br>
+            <input type="email" name="email" placeholder="xxxxx@hotmail.com" id="mail" required><br>
+        </div>
+        <div>
+            <label>Gender</label><br>
+            <input type="radio" name="gender" value="Male" id="genderMale"><label for="genderMale">Male</label>
+            <br>
+            <input type="radio" name="gender" value="Female" id="genderFemale"><label for="genderFemale">Female</label>
+        </div>
+        <br>
+        <input type="submit" name="submit" value="Gönder">
+    </form>
+</body>
+</html>
